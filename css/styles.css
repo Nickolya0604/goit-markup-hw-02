@@ -1,0 +1,208 @@
+:root{
+--primary-text-color:#212121;
+--primary-background-color:#E5E5E5;
+--portfolio-list-p-color:#757575;
+--accent-color:#2196F3;
+}
+
+
+
+
+/* Portfolio */
+
+button {
+ cursor: pointer;   
+}
+
+.buttons button:hover,
+.buttons button:focus {
+    color: #FFFFFF;
+    background-color: #2196F3;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.portfolio-list h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-list p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+
+/* Main page */
+
+
+.button-order{
+    background-color:#2196F3 ;
+    color:#FFFFFF;;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.hero{
+    background:#2F303A ;
+        width: 1600px;
+        height: 600px;
+        left: 0px;
+        top: 80px;
+}
+
+.main-text{
+    color: #FFFFFF;
+    font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+     }
+
+.details h3{
+font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.details p{
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.whatwedo{
+font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team h3{
+font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team p{
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+
+/* Headr and footer */
+
+body {
+    font-family: 'Roboto';
+    background-color: #E5E5E5;
+    color: #212121;
+}
+
+.main-footer{
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2097px;
+    background: #2F303A;
+}
+
+.nav-link, .buttons button, .logo-studio-header {color: #212121;}
+.logo-studio-footer{color: #FFFFFF;}
+.address-header{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.address-footer {
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+.address-footer-city{
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+
+.nav-link:hover,
+.nav-link:focus, 
+.address-footer:hover,
+.address-footer:focus,
+.address-footer-city:hover,
+.address-footer-city:focus,
+.address-header:hover,
+.address-header:focus,
+.logo-link:hover,
+.logo-link:focus
+{color:#2196F3}
+
+.site-nav .nav-link.current {
+    color: #2196F3;
+}
+
+.logo-link {
+    color: #2196F3;
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+}
+
+.nav-link{
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+}
+
+
+
+
+
+
+/* 
+«С8» Указаны альтернативные варианты шрифта и тип семейства (без засечек) в конце перечисления font-family 
+у элемента <body>.   
+«С17» В стилях не повторяются значения свойств,которые заданы браузером по умолчнаию. Например,
+ссылкам не нужно указывать cursor: pointer,
+а абзацам font-style: normal или font-weight: 400. */
