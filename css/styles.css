@@ -1,17 +1,17 @@
 :root{
 --primary-text-color:#212121;
 --primary-background-color:#E5E5E5;
---portfolio-list-p-color:#757575;
 --accent-color:#2196F3;
 --background-color:#2f303a;
 --p-color:#757575;
+--button-logo-color:#FFFFFF;
 }
 
 
 body {
     font-family: 'Roboto';
-    background-color: #E5E5E5;
-    color: #212121;
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
 }
 
 
@@ -31,8 +31,8 @@ letter-spacing: 0.03em;
 
 .buttons button:hover,
 .buttons button:focus {
-    color: #FFFFFF;
-    background-color: #2196F3;
+    color: var(--button-logo-color);
+    background-color: var(--accent-color);
 }
 
 .portfolio-list h2 {
@@ -55,12 +55,11 @@ letter-spacing: 0.03em;
 
 
 .button-order{
-    background-color:#2196F3 ;
-    color:#FFFFFF;;
+    background-color:var(--accent-color) ;
+    color:var(--button-logo-color);
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
-    text-align: center;
     letter-spacing: 0.06em;
 }
 
@@ -69,7 +68,7 @@ letter-spacing: 0.03em;
 }
 
 .main-text{
-    color: #FFFFFF;
+    color: var(--button-logo-color);
     font-weight: 900;
         font-size: 44px;
         line-height: 60px;
@@ -121,35 +120,37 @@ font-weight: 500;
 background:var(--background-color);
 }
 
-.nav-link, .logo-studio-header {color: #212121;}
-.logo-studio-footer{color: #FFFFFF;}
+.nav-link, .logo-studio-header {color: var(--primary-text-color);}
+.logo-studio-footer{color: var(--button-logo-color);}
 .address-header{
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--p-color);
 }
 .address-footer {
+font-style: normal;
 font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
 .address-footer-city{
+font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
-color: #FFFFFF;
+color: var(--button-logo-color);
 }
 
 .site-nav .nav-link.current {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .logo-link {
-    color: #2196F3;
+    color: var(--accent-color);
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -168,20 +169,13 @@ color: #FFFFFF;
 
 .nav-link:hover,
 .nav-link:focus, 
-.address-footer:hover,
 .address-footer:focus,
-.address-footer-city:hover,
 .address-footer-city:focus,
 .address-header:hover,
 .address-header:focus,
 .logo-link:hover,
 .logo-link:focus
-{color:#2196F3}
+{color:var(--accent-color)}
 
 
 
-
-
-
-
-/* 10. http: //joxi.net/VrwDbblcoE0bOm - ця властивість вішається на li і наслідується на її дітей (img, h3 i p) */
